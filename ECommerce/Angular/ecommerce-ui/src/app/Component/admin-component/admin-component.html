@@ -1,0 +1,45 @@
+<div class="login-container">
+
+  <button class="login-btn"
+          *ngIf="!showloginForm"
+          (click)="openloginForm()">
+    Admin Login
+  </button>
+
+  <div *ngIf="showloginForm" class="login-card">
+
+    <h2>Admin Login</h2>
+
+    <form (ngSubmit)="login()">
+
+      <input type="email"
+             [(ngModel)]="admin.email"
+             name="loginEmail"
+             placeholder="Enter Email"
+             required>
+
+      <input type="password"
+             [(ngModel)]="admin.password"
+             name="loginPassword"
+             placeholder="Enter Password"
+             required>
+
+      <div class="button-group">
+
+        <button type="submit">
+          Login
+        </button>
+
+        <button type="button"
+                class="close-btn"
+                (click)="closeloginForm()">
+          Close
+        </button>
+
+      </div>
+
+    </form>
+
+  </div>
+
+</div>

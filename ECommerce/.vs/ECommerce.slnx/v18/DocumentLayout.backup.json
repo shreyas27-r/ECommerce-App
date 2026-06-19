@@ -1,0 +1,745 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\component\\user\\user.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\component\\user\\user.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\service\\user.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\service\\user.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\service\\cart.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\service\\cart.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\component\\home-component\\home-component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\component\\home-component\\home-component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\component\\admin-component\\admin-component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\component\\admin-component\\admin-component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\component\\admin-component\\admin-component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\component\\admin-component\\admin-component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\component\\user\\user.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\component\\user\\user.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\component\\home-component\\home-component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\component\\home-component\\home-component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\component\\user\\user.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\component\\user\\user.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\component\\admin-component\\admin-component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\component\\admin-component\\admin-component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\service\\admin.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\service\\admin.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\component\\cart-component\\cart-component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\component\\cart-component\\cart-component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\component\\product-component\\product-component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\component\\product-component\\product-component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\component\\product-component\\product-component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\component\\product-component\\product-component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\component\\product-component\\product-component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\component\\product-component\\product-component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\service\\product.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\service\\product.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\enum\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:enum\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\component\\cart-component\\cart-component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\component\\cart-component\\cart-component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\component\\cart-component\\cart-component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\component\\cart-component\\cart-component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\migrations\\20260612101056_three.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:migrations\\20260612101056_three.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\angular\\ecommerce-ui\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:angular\\ecommerce-ui\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\migrations\\20260611042302_one.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:migrations\\20260611042302_one.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\migrations\\20260612035248_two.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:migrations\\20260612035248_two.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\migrations\\20260616051656_eight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:migrations\\20260616051656_eight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\migrations\\20260616051452_seven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:migrations\\20260616051452_seven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\migrations\\20260616040818_fivee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:migrations\\20260616040818_fivee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|c:\\users\\shreyas.raveesh\\source\\repos\\ecommerce\\migrations\\20260618045550_nine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E5B42-0657-6603-61C8-1B2E47F866F4}|ECommerce.csproj|solutionrelative:migrations\\20260618045550_nine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Services\\CartService.cs",
+              "RelativeToolTip": "Services\\CartService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T05:21:32.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T06:13:50.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:39:54.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:11:12.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Services\\AdminService.cs",
+              "RelativeToolTip": "Services\\AdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T03:42:03.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T03:40:50.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAIBQwEUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T06:15:34.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "product-component.html",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\product-component\\product-component.html",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\Component\\product-component\\product-component.html",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\product-component\\product-component.html",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\Component\\product-component\\product-component.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-12T08:23:30.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "cart-component.html",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\cart-component\\cart-component.html",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\Component\\cart-component\\cart-component.html",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\cart-component\\cart-component.html",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\Component\\cart-component\\cart-component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-16T06:31:57.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIBJwBoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:38:33.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T05:40:12.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "user.ts",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\user\\user.ts",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\Component\\user\\user.ts",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\user\\user.ts",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\Component\\user\\user.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-06-11T07:08:35.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "user.ts",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\service\\user.ts",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\service\\user.ts",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\service\\user.ts",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\service\\user.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-06-18T04:03:34.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T04:53:10.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "cart-component.css",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\cart-component\\cart-component.css",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\Component\\cart-component\\cart-component.css",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\cart-component\\cart-component.css",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\Component\\cart-component\\cart-component.css",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAmwGwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-16T11:17:44.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T03:43:55.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Models\\Cart.cs",
+              "RelativeToolTip": "Models\\Cart.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T05:11:33.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T03:49:09.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:13:43.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "product-component.css",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\product-component\\product-component.css",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\Component\\product-component\\product-component.css",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\product-component\\product-component.css",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\Component\\product-component\\product-component.css",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwCYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-12T10:22:11.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "cart-component.ts",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\cart-component\\cart-component.ts",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\Component\\cart-component\\cart-component.ts",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\cart-component\\cart-component.ts",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\Component\\cart-component\\cart-component.ts",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-06-16T06:08:00.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "cart.ts",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\service\\cart.ts",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\service\\cart.ts",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\service\\cart.ts",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\service\\cart.ts",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-06-16T06:00:40.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20260618045550_nine.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Migrations\\20260618045550_nine.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260618045550_nine.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Migrations\\20260618045550_nine.cs",
+              "RelativeToolTip": "Migrations\\20260618045550_nine.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T04:55:51.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "product-component.ts",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\product-component\\product-component.ts",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\Component\\product-component\\product-component.ts",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\product-component\\product-component.ts",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\Component\\product-component\\product-component.ts",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAQwCgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-06-12T06:28:55.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "admin-component.ts",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\admin-component\\admin-component.ts",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\Component\\admin-component\\admin-component.ts",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\admin-component\\admin-component.ts",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\Component\\admin-component\\admin-component.ts",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-06-12T04:53:37.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "product.ts",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\service\\product.ts",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\service\\product.ts",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\service\\product.ts",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\service\\product.ts",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-06-12T06:22:37.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "app.routes.ts",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\app.routes.ts",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\app.routes.ts",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\app.routes.ts",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\app.routes.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-06-12T06:42:51.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "admin-component.html",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\admin-component\\admin-component.html",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\Component\\admin-component\\admin-component.html",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\admin-component\\admin-component.html",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\Component\\admin-component\\admin-component.html",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-12T05:31:44.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20260616051656_eight.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Migrations\\20260616051656_eight.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260616051656_eight.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Migrations\\20260616051656_eight.cs",
+              "RelativeToolTip": "Migrations\\20260616051656_eight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T05:16:57.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20260616051452_seven.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Migrations\\20260616051452_seven.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260616051452_seven.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Migrations\\20260616051452_seven.cs",
+              "RelativeToolTip": "Migrations\\20260616051452_seven.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T05:14:52.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-11T04:14:24.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Enum\\Category.cs",
+              "RelativeDocumentMoniker": "Enum\\Category.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Enum\\Category.cs",
+              "RelativeToolTip": "Enum\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T03:45:12.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20260616040818_fivee.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Migrations\\20260616040818_fivee.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260616040818_fivee.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Migrations\\20260616040818_fivee.cs",
+              "RelativeToolTip": "Migrations\\20260616040818_fivee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T04:08:19.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20260612101056_three.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Migrations\\20260612101056_three.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260612101056_three.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Migrations\\20260612101056_three.cs",
+              "RelativeToolTip": "Migrations\\20260612101056_three.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T10:10:56.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\index.html",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\index.html",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\index.html",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-11T06:27:41.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "app.ts",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\app.ts",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\app.ts",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\app.ts",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\app.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-06-11T04:44:05.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "user.html",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\user\\user.html",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\Component\\user\\user.html",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\user\\user.html",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\Component\\user\\user.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-11T06:08:10.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "home-component.ts",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\home-component\\home-component.ts",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\Component\\home-component\\home-component.ts",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\home-component\\home-component.ts",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\Component\\home-component\\home-component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-06-12T07:00:18.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "home-component.html",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\home-component\\home-component.html",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\Component\\home-component\\home-component.html",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\home-component\\home-component.html",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\Component\\home-component\\home-component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-12T06:55:36.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "app.html",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\app.html",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\app.html",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\app.html",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\app.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-11T04:44:17.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "admin-component.css",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\admin-component\\admin-component.css",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\Component\\admin-component\\admin-component.css",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\admin-component\\admin-component.css",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\Component\\admin-component\\admin-component.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-12T06:00:13.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "admin.ts",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\service\\admin.ts",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\service\\admin.ts",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\service\\admin.ts",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\service\\admin.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-06-12T04:45:39.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "user.css",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\user\\user.css",
+              "RelativeDocumentMoniker": "Angular\\ecommerce-ui\\src\\app\\Component\\user\\user.css",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Angular\\ecommerce-ui\\src\\app\\Component\\user\\user.css",
+              "RelativeToolTip": "Angular\\ecommerce-ui\\src\\app\\Component\\user\\user.css",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwHkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-11T11:27:10.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20260612035248_two.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Migrations\\20260612035248_two.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260612035248_two.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Migrations\\20260612035248_two.cs",
+              "RelativeToolTip": "Migrations\\20260612035248_two.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T03:52:48.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20260611042302_one.cs",
+              "DocumentMoniker": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Migrations\\20260611042302_one.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260611042302_one.cs",
+              "ToolTip": "C:\\Users\\Shreyas.Raveesh\\source\\repos\\ECommerce\\Migrations\\20260611042302_one.cs",
+              "RelativeToolTip": "Migrations\\20260611042302_one.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:23:03.761Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+<div class="container">
+
+  <h1 class="title">E-Commerce Portal</h1>
+
+  <div class="top-buttons">
+
+    <button (click)="openRegisterForm()">
+      Register
+    </button>
+
+    <button (click)="openloginForm()">
+      User Login
+    </button>
+
+  </div>
+
+  <div class="form-card" *ngIf="showRegisterForm">
+
+    <h2>Register</h2>
+
+    <form (ngSubmit)="createUser()">
+
+      <input type="text"
+             [(ngModel)]="Reguser.name"
+             name="name"
+             placeholder="Enter Name"
+             required>
+
+      <input type="email"
+             [(ngModel)]="Reguser.email"
+             name="email"
+             placeholder="Enter Email"
+             required>
+
+      <input type="password"
+             [(ngModel)]="Reguser.password"
+             name="password"
+             placeholder="Enter Password"
+             required>
+
+      <div class="form-buttons">
+        <button type="submit">
+          Register
+        </button>
+
+        <button type="button"
+                (click)="closeRegisterForm()">
+          Close
+        </button>
+      </div>
+
+    </form>
+
+  </div>
+
+  <div class="form-card" *ngIf="showloginForm">
+
+    <h2>User Login</h2>
+
+    <form (ngSubmit)="login()">
+
+      <input type="email"
+             [(ngModel)]="LgUser.email"
+             name="loginEmail"
+             placeholder="Enter Email"
+             required>
+
+      <input type="password"
+             [(ngModel)]="LgUser.password"
+             name="loginPassword"
+             placeholder="Enter Password"
+             required>
+
+      <div class="form-buttons">
+
+        <button type="submit">
+          Login
+        </button>
+
+        <button type="button"
+                (click)="closeloginForm()">
+          Close
+        </button>
+
+      </div>
+
+    </form>
+
+  </div>
+
+</div>

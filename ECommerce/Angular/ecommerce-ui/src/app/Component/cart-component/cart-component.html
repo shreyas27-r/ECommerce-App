@@ -1,0 +1,176 @@
+<div class="cart-container">
+
+  <div class="cart-header">
+    <h1>My Shopping Cart</h1>
+
+    <div class="button-group">
+      <button class="refresh-btn" (click)="getCart()">
+        Refresh Cart
+      </button>
+
+      <button class="order-btn" (click)="getOrder(userId)">
+        Orders
+      </button>
+    </div>
+  </div>
+
+  <div *ngIf="cartItems.length === 0" class="empty-cart">
+    <h2>Your cart is empty.</h2>
+    <p>Add some products to get started!</p>
+  </div>
+
+  <div class="table-wrapper" *ngIf="cartItems.length > 0">
+
+    <table class="cart-table">
+
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        <tr *ngFor="let item of cartItems">
+
+          <td>
+            <img class="product-img"
+                 [src]="'https://localhost:7037' + item.product.imageUrl"
+                 [alt]="item.product.name">
+          </td>
+
+          <td>{{ item.product.name }}</td>
+
+          <td>
+            {{ item.product.price | currency:'INR':'symbol':'1.2-2' }}
+          </td>
+
+          <td>
+            <button class="qty-btn" (click)="subtractQuantity(item)">-</button>
+
+            {{ item.quantity }}
+
+            <button class="qty-btn" (click)="addQuantity(item)">+</button>
+          </td>
+
+          <td>
+            {{ item.product.price * item.quantity | currency:'INR':'symbol':'1.2-2' }}
+          </td>
+
+          <td>
+            <button class="remove-btn"
+                    (click)="removeFromCart(item.id)">
+              Remove
+            </button>
+          </td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+  <button class="checkout-btn"
+          *ngIf="cartItems.length > 0"
+          (click)="openBill()">
+
+    Proceed to Checkout
+
+  </button>
+
+  <div *ngIf="showBill" class="bill-overlay">
+
+    <div class="bill-popup">
+
+      <h2>Bill</h2>
+
+      <div *ngFor="let item of bill.items">
+
+        <h4>
+          {{ item.productName }} -
+          {{ item.quantity }} x ₹{{ item.price }}
+          = ₹{{ item.total }}
+        </h4>
+
+      </div>
+
+      <hr>
+
+      <h4>
+        Delivery Fee: ₹{{ bill.deliveryFee }}
+      </h4>
+
+      <div *ngIf="bill.deliveryFee > 0">
+        <p>Free delivery on bill above ₹1000</p>
+      </div>
+
+      <h3>Total: ₹{{ bill.grandTotal }}</h3>
+
+      <button (click)="checkout(userId)">
+        Confirm Checkout
+      </button>
+
+      <button (click)="showBill = false">
+        Cancel
+      </button>
+
+    </div>
+
+  </div>
+
+  <div class="orders-wrapper"
+       *ngIf="ordersLoaded && orders.length > 0">
+
+    <h2>Order History</h2>
+
+    <table class="orders-table">
+
+      <thead>
+
+        <tr>
+          <th>Order Id</th>
+          <th>Product Id</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Purchased On</th>
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr *ngFor="let order of orders">
+
+          <td>{{ order.id }}</td>
+
+          <td>{{ order.productId }}</td>
+
+          <td>{{ order.quantity }}</td>
+
+          <td>{{ order.price }}</td>
+
+          <td>{{ order.purchasedOn | date:'medium' }}</td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+  <div class="empty-orders"
+       *ngIf="ordersLoaded && orders.length === 0">
+
+    <p>No orders found.</p>
+
+  </div>
+
+</div>

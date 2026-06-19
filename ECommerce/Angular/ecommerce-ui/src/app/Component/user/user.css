@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7fb;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+button {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 11px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+  button:hover {
+    background: #125aa0;
+  }
+
+.form-card {
+  width: 420px;
+  max-width: 100%;
+  margin: 0 auto 30px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+  .form-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+  }
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+  input:focus {
+    outline: none;
+    border-color: #1976d2;
+  }
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.table-container {
+  margin-top: 40px;
+}
+
+  .table-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+th {
+  background: #1976d2;
+  color: white;
+  padding: 14px;
+}
+
+td {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+  background: #f7f7f7;
+}
+
+@media (max-width: 768px) {
+
+  .top-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-card {
+    width: 100%;
+  }
+}

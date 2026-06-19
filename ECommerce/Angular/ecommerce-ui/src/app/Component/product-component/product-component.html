@@ -1,0 +1,222 @@
+<div class="page-container">
+
+  <div class="top-bar">
+
+    <h4 class="welcome-text" *ngIf="!isAdmin">
+      Welcome, {{ userName | uppercase }}!
+    </h4>
+
+    <div class="action-buttons">
+
+      <button *ngIf="isAdmin"
+              class="primary-btn"
+              (click)="openAddForm()">
+        Add Product
+      </button>
+
+      <button class="primary-btn"
+              (click)="getProducts()">
+        Get Products
+      </button>
+
+      <button (click)="getUsers()" *ngIf="isAdmin" class="primary-btn">
+        Get Users
+      </button>
+
+      <button *ngIf="!isAdmin"
+              class="primary-btn"
+              routerLink="/cart">
+        View Cart
+      </button>
+
+    </div>
+
+  </div>
+
+  <div class="product-grid" *ngIf="products.length > 0">
+
+    <div class="product-card" *ngFor="let p of products">
+
+      <img class="product-image"
+           [src]="imageBaseUrl + p.imageUrl"
+           [alt]="p.name">
+
+      <div class="product-details">
+
+        <h3>{{ p.name }}</h3>
+
+        <p class="description">
+          {{ p.description }}
+        </p>
+
+        <span class="category">
+          {{ p.category }}
+        </span>
+
+        <h2 class="price">
+          {{ p.price | currency:'INR':'symbol':'1.2-2' }}
+        </h2>
+
+        <button *ngIf="!isAdmin"
+                class="card-btn"
+                (click)="addToCart(p)">
+          Add to Cart
+        </button>
+
+        <button *ngIf="isAdmin"
+                class="delete-btn"
+                (click)="deleteProduct(p.id)">
+          Delete Product
+        </button>
+
+        <button *ngIf="isAdmin"
+                class="edit-btn"
+                (click)="openEditForm(p)">
+          Edit Product
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div *ngIf="showaddForm" class="form-container">
+
+    <h2>Add Product</h2>
+
+    <form (ngSubmit)="addProduct()">
+
+      <input type="text"
+             [(ngModel)]="product.name"
+             name="name"
+             placeholder="Product Name"
+             required>
+
+      <input type="text"
+             [(ngModel)]="product.description"
+             name="description"
+             placeholder="Description"
+             required>
+
+      <input type="text"
+             [(ngModel)]="product.imageUrl"
+             name="imageUrl"
+             placeholder="Image URL"
+             required>
+
+      <input type="number"
+             [(ngModel)]="product.price"
+             name="price"
+             placeholder="Price"
+             required>
+
+      <select [(ngModel)]="product.category"
+              name="category">
+
+        <option value="0">Select Category</option>
+        <option [ngValue]="1">Electronics</option>
+        <option [ngValue]="2">Clothing</option>
+        <option [ngValue]="3">Home</option>
+        <option [ngValue]="4">Books</option>
+        <option [ngValue]="5">Fitness</option>
+
+      </select>
+
+      <button type="submit">
+        Add Product
+      </button>
+
+      <button type="button"
+              (click)="closeAddForm()">
+        Close
+      </button>
+
+    </form>
+
+  </div>
+
+  <div *ngIf="showEditForm" class="form-container">
+
+    <h2>Edit Product</h2>
+
+    <form>
+
+      <input type="text"
+             [(ngModel)]="product.name"
+             name="editName"
+             placeholder="Product Name">
+
+      <input type="text"
+             [(ngModel)]="product.description"
+             name="editDescription"
+             placeholder="Description">
+
+      <input type="text"
+             [(ngModel)]="product.imageUrl"
+             name="editImage"
+             placeholder="Image URL">
+
+      <input type="number"
+             [(ngModel)]="product.price"
+             name="editPrice"
+             placeholder="Price">
+
+      <select [(ngModel)]="product.category"
+              name="editCategory">
+
+        <option [ngValue]="1">Electronics</option>
+        <option [ngValue]="2">Clothing</option>
+        <option [ngValue]="3">Home</option>
+        <option [ngValue]="4">Books</option>
+        <option [ngValue]="5">Fitness</option>
+
+      </select>
+
+      <button type="button"
+              (click)="editProduct(product, product.id)">
+        Update Product
+      </button>
+
+      <button type="button"
+              (click)="showEditForm = false">
+        Cancel
+      </button>
+
+    </form>
+
+  </div>
+
+  <div *ngIf="users.length > 0" class="table-container">
+
+    <h2>Registered Users</h2>
+
+    <table>
+
+      <thead>
+
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr *ngFor="let u of users">
+
+          <td>{{ u.id }}</td>
+          <td>{{ u.name }}</td>
+          <td>{{ u.email }}</td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</div>
